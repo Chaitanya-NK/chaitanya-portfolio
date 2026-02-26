@@ -41,7 +41,7 @@ const Sidebar: React.FC = () => {
         <div className="p-6">
           <h2 className="text-emerald-400 font-bold text-xl tracking-tighter flex items-center gap-2">
             <div className="w-2 h-2 bg-emerald-500 rounded-full animate-pulse" />
-            ADMIN.CORE
+            CHAITANYA N K
           </h2>
         </div>
 
