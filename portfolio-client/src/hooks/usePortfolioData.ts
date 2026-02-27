@@ -16,7 +16,7 @@ export const usePortfolioData = () => {
     useEffect(() => {
         const fetchAll = async () => {
             try {
-                const baseURL = "http://localhost:5000/api";
+                const baseURL = "https://chaitanya-portfolio-t7vy.onrender.com/api";
 
                 const [p, s, exp, edu, cfg] = await Promise.all([
                     axios.get(`${baseURL}/projects`),
