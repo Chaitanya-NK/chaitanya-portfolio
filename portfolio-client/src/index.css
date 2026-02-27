@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* This line below is the magic for v4 to listen to the .dark class */
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui;
+}
+
+/* Optional: Smooth transition for the whole page */
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
