@@ -16,7 +16,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin: '*', // For development only, allows all origins
+  origin: 'https://chaitanya-portfolio-t7vy.onrender.com', // For development only, allows all origins
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'] 
 }));

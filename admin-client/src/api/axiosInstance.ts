@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-    baseURL: 'http://localhost:5000/api',
+    baseURL: 'https://chaitanya-portfolio-t7vy.onrender.com/api',
 });
 
 // Interceptor to attach JWT token
