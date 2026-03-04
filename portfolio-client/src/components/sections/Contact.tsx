@@ -19,7 +19,7 @@ export const Contact = () => {
         setIsSubmitting(true);
         try {
             // Adjust this URL to match your backend route
-            await axios.post('http://localhost:5000/api/contacts', formData);
+            await axios.post('https://chaitanya-portfolio-t7vy.onrender.com/api/contacts', formData);
             setSubmitted(true);
             setFormData({ name: '', email: '', subject: '', message: '' });
             setTimeout(() => setSubmitted(false), 5000);
